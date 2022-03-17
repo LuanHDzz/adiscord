@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-image: url(DD-tavern.jpg);
+}
+
+.titulo {
+    color: white;
+    font-family: 'Lobster', italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-width: 1px;
+    
+
+}
+
+.imagem-1  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+
+}
+
+.texto {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons {
+    color:  khaki;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px 300px;
+}
+
+.botão {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px 250px;
+}
+ 
+.lofi {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    
+
+}
+
+#lofi {
+    font-size: 20px;
+    color: white
+}
